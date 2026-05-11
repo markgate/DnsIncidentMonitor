@@ -1,0 +1,29 @@
+# Build output
+bin/
+obj/
+dist/
+publish/
+artifacts/
+
+# Local restore/cache workaround
+.appdata/
+
+# Visual Studio / Rider / user-local files
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Debug symbols and generated binaries
+*.pdb
+*.exe
+*.dll
+*.deps.json
+*.runtimeconfig.json
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
