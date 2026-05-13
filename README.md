@@ -1,11 +1,14 @@
 # DNS Incident Monitor
 
 DNS Incident Monitor is a Windows DNS monitoring tool for emergency response.
+DNS事件监控器是一款适用于应急响应场景的Windows域名系统监控工具。用于解决应急响应中，通过持续监控恶意域名请求，定位恶意进程。
 
 ## Features
 
 - ETW DNS Client mode for Windows DNS Client events.
+- 支持通过ETW DNS Client mode抓取windows DNS 客户端事件中的域名解析记录。
 - Raw Sockets capture mode, no packet driver required.
+- 支持通过Raw Sockets capture模式，直接选择网卡抓包
 - Capture selector for choosing Wi-Fi or Ethernet IPv4 adapter in Raw Sockets mode.
 - DNS table with process name, PID, hostname, query type, response IP, source IP, source port, destination IP, destination port, and DNS response code.
 - Process attribution through Windows TCP/UDP owner PID tables.
